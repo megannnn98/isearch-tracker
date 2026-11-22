@@ -1,0 +1,12 @@
+# Third-party material kept locally only
+original/*
+!original/SHA256SUMS
+work/
+
+# Build output
+tracker/.gradle/
+tracker/build/
+tracker/app/build/
+tracker/local.properties
+*.iml
+.idea/

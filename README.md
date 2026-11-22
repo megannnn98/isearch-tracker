@@ -1,5 +1,8 @@
 # Поиск телефона по брелоку (замена iSearching)
 
+[![CI](https://github.com/megannnn98/isearch-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/megannnn98/isearch-tracker/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Минимальное приложение: брелок с BLE подключается один раз, затем двойное нажатие кнопки включает громкий сигнал на телефоне. Работает в фоне через foreground-службу, без root, Accessibility, интернета и серверов.
 
 Статус: код собран, unit-тесты проходят. **На реальном телефоне и брелоке ничего не проверено**, см. `docs/TEST_REPORT.md`.
